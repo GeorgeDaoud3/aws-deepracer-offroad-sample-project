@@ -108,7 +108,7 @@ def generate_launch_description():
         name='model_optimizer_node'
     )
     rplidar_node = Node(
-        package='rplidar_ros2',
+        package='rplidar_ros',
         namespace='rplidar_ros',
         executable='rplidar_scan_publisher',
         name='rplidar_scan_publisher',
