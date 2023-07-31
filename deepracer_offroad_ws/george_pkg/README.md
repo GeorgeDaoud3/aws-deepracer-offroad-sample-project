@@ -94,7 +94,7 @@ To launch the AWS DeepRacer Offroad sample application as the root user on the A
 
 1. Launch the nodes required for the AWS DeepRacer Offroad sample project:
 
-        ros2 launch deepracer_offroad_launcher deepracer_offroad_launcher.py
+        ros2 launch george_pkg george_test_code.py
 
 Once the AWS DeepRacer Offroad sample application is launched, you can follow the steps [here](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-set-up-vehicle-test-drive.html) to open the AWS DeepRacer Vehicle's Device Console and checkout the DeepRacer Offroad mode tab which will help you control the vehicle.
 
