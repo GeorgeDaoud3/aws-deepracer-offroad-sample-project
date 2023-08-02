@@ -79,7 +79,10 @@ To launch the AWS DeepRacer Offroad sample application as the root user on the A
 1. Switch to the root user before you source the ROS 2 installation:
 
         sudo su
+1. Make sure that the deepracer-core.service is stopped
 
+        systemctl stop deepracer-core
+   
 1. Source the ROS 2 Foxy setup bash script:
 
         source /opt/ros/foxy/setup.bash 
